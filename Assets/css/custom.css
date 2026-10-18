@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "koulen";
+    src: url(../font/Koulen/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Battambong";
+    src: url(../font/Battambang/Battambang-Black.ttf);
+}
+
+@font-face {
+    font-family: "OpenSanBold";
+    src: url(../font/Open_Sans/static/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family:"OpenSanregular" ;
+    src: url(../font/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+body{
+    font-family: 'battambong','OpenSansregular';
+}
+
+h1,h2,h3,h5,h6,.nav-link{
+    color:rgb(33, 4, 118);
+    font-family: 'koulen','OpensanBold';
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,.nov-link:hover{
+    color: brown;
+    scale: 1.1;
+    transform: 1s;
+}
+span{
+    color:brown
+}
+h4{
+    color: rgb(244, 244, 247);
+    font-family:'Opensanbold' ;
+    font-size: medium;
+}
+.card{
+    position: relative;
+}
+.card:hover{
+    padding: 10px;
+    border: 1.px solid var (--text-color);
+    transition: 0.4s;
+}
+/* .card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
+    padding-top: 1px;
+} */
