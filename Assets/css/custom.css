@@ -27,7 +27,7 @@ h1,h2,h3,h5,h6,.nav-link{
     font-family: 'koulen','OpensanBold';
 }
 h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,.nov-link:hover{
-    color: brown;
+    color: rgb(6, 146, 233);
     scale: 1.1;
     transform: 1s;
 }
@@ -47,9 +47,115 @@ h4{
     border: 1.px solid var (--text-color);
     transition: 0.4s;
 }
-/* .card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
-    gap: 1.5rem;
-    padding-top: 1px;
-} */
+
+
+/* All elements */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablet: 768px - 991px */
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .container {
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile: 576px - 767px */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+
+    .nav-link {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile: below 576px */
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .card:hover {
+        padding: 10px;
+    }
+    h1:hover,
+    h2:hover,
+    h3:hover,
+    h4:hover,
+    h5:hover,
+    h6:hover,
+    .nav-link:hover {
+        transform: none;
+    }
+}
+
+
+    
